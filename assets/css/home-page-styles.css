@@ -1,5 +1,5 @@
-@import url('/assets/css/reset.css');
-@import url('/assets/css/global.css');
+@import url('reset.css');
+@import url('global.css');
 
 body{
     background-color: var(--primary-color);
@@ -9,6 +9,7 @@ body::before {
     background-image: url('/assets/img/spider-man-background.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -36,6 +37,7 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    perspective: 3000px;
 }
 .s-card {
     border: 0.5rem solid white;
@@ -73,7 +75,7 @@ body::before {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 1.5rem;  
 }
 .s-controller__button {
     display: flex;
@@ -83,8 +85,8 @@ body::before {
     height: 2.5rem;
     border: 2px solid white;
     border-radius: 50%;
-    background-color: var("--primary-color");
-    text-align: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
@@ -95,7 +97,13 @@ body::before {
     transform: scale(1.1);
 }
 .s-controller__button:nth-child(2) {
-    margin: 0 1rem;
+    margin: 0 3.75rem; 
+}
+.s-controller__button--active {
+    background-color: white;
+    color: var(--primary-color);
+    border: 0.1875rem solid var(--primary-color);
+    outline: 0.125rem solid white;
 }
 
 .s-controller__line {
