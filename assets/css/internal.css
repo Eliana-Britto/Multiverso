@@ -10,7 +10,7 @@
     height: 100vh;
     flex-flow: row nowrap;
 }
-.swrapper video {
+.s-wrapper video {
     position: fixed;
     width: 100%;
 }
