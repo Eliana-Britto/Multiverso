@@ -45,9 +45,9 @@
     justify-content: flex-end;
 }
 .s-wrapper .s-main-content .s-logo img {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 0;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .s-wrapper .s-main-content__top .s-description {
     background-color: rgba(0, 0, 0, .7);
@@ -74,3 +74,7 @@
     background-image: url('../img/gallery/Background.png');
     background-size: cover;
 }
+.s-main-content-01-02 {
+    background-image: url('../img/spiderMan-andrew/background.png');
+    background-size: cover;
+}   
