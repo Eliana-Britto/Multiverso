@@ -77,4 +77,8 @@
 .s-main-content-01-02 {
     background-image: url('../img/spiderMan-andrew/background.png');
     background-size: cover;
+}
+.s-main-content-01-03 {
+    background-image: url('../img/tomHolland/background03.png');
+    background-size: cover;
 }   
