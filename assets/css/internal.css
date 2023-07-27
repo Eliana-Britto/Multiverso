@@ -81,4 +81,8 @@
 .s-main-content-01-03 {
     background-image: url('../img/tomHolland/background03.png');
     background-size: cover;
+}
+.s-main-content-00-01 {
+    background-image: url('/assets/img/pagInicial/Homenagens-Stan-Lee.png');
+    background-size: cover;
 }   
